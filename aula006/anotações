@@ -1,0 +1,140 @@
+ANOTAÇÕES "TRABALHANDO COM OPERADORES"
+
+> 5 + 2
+7
+> 5 - 2
+3
+> 5 * 2
+10
+> 5 ** 2
+25
+> 5 / 2
+2.5
+> 5 % 2
+1
+> 9 % 2
+1
+> 5 + 3 / 2 * 2
+8
+> (5 + 10)/ 2
+7.5
+> var = 5 + 3
+var = 5 + 3
+
+
+
+Uncaught SyntaxError: Unexpected token '='
+> var a = 5 + 3
+undefined
+> var b = a % 5
+undefined
+> var c = 5 * b ** 2
+undefined
+> var d = 10 - a / 2
+undefined
+> var e = 6 * 2 / d
+undefined
+> var f = b % e + 4 / e
+undefined
+>
+> var n = 3
+undefined
+> n = n + 4
+7
+> n = n % 5
+2
+> n += 4
+6
+> n *= 3
+18
+> n %= 6
+0
+
+
+
+> n = 10
+10
+>  n ++
+10
+> n
+11
+> n --
+11
+> n
+10
+
+
+
+
+> 5 > 2
+true
+> 4 < 3
+false
+> 4 <= 6
+true
+> 4>= 6
+false
+> 4 == 2
+false
+> 5 != 4
+true
+
+
+
+> var a = 5
+undefined
+> var b = 8
+undefined
+> a > b && b % 2 == 0
+false
+> a > b || b % 2 == 0
+true
+> a <= b || b / 2 == 2
+true
+> 'ordem !, &&, ||'
+'ordem !, &&, ||'
+> salário = 1200
+1200
+> var salário = 1200
+undefined
+> var gênero = 'M'
+undefined
+> salário > 1500 && gênero != 'M'
+fals
+
+
+
+> 'ordem !, &&, ||'
+'ordem !, &&, ||'
+> var média = 5
+undefined
+> média > 7? 'APROVADO':'REPROVADO'
+'REPROVADO'
+> média += 3
+8
+> média > 7? 'APROVADO':'REPROVADO'
+'APROVADO'
+> média -= 1
+7
+> média > 7? 'APROVADO':'REPROVADO'
+'REPROVADO'
+> var x = 8
+undefined
+> var res = x % 2 == 0? 5: 9
+undefined
+> x
+8
+> res
+5
+> var idade = 19
+undefined
+> var r = idade >= 18? 'MAIOR':'MENOR'
+undefined
+> r
+'MAIOR'
+> var idade = 10
+undefined
+> var r = idade >= 18? 'MAIOR':'MENOR'
+undefined
+> r
+'MENOR'
