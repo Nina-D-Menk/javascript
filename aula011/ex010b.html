@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passaporte</title>
+</head>
+<body>
+    <h1>Consulado Brasileiro</h1>
+    Em qual país está vivendo 
+    <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Verificar" onclick="nacionalidade()">
+    <div id="res">
+
+    </div>
+    <script>
+        
+        function nacionalidade() {
+            var país = window.document.querySelector('input#txtpais')
+            var res = window.document.querySelector('div#res')
+            var vel = String(país.value)
+
+            res.innerHTML = `<p>Você está vivendo em ${vel}</p>`
+            if (vel == 'Brasil') {
+                res.innerHTML += '<p>Você é <strong>Brasileiro</strong>!</p>'
+            } else {
+                res.innerHTML += '<p>Você é Estrangeiro</p>'
+            }
+        }
+
+    </script>
+</body>
+</html>
+
